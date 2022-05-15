@@ -16,6 +16,8 @@ namespace unit02_hilo
                     keepPlaying = false;
                     Console.WriteLine("Thanks for playing, come again! ");
                     return;
+                } else if ( direct.score <= 0) {
+                    break;
                 }
             }
             Console.WriteLine("You lose. Try again!");

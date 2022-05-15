@@ -49,7 +49,7 @@ namespace unit02_hilo
                 score += 100;
                 Console.WriteLine("You were right! +100 points! ");
             }
-            else if ((answer == "h" && nextCard < currCard)||(answer == "l" && nextCard > currCard))
+            else if ((answer == "h" && nextCard < currCard)||(answer == "l" && nextCard >= currCard))
             {
                 score -= 75;
                 Console.WriteLine("You were wrong. :( -75 points. ");
